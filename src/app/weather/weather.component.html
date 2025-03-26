@@ -3,10 +3,10 @@
     <input [(ngModel)]="city" placeholder="Digite o nome da cidade"/>
     <button (click)="getWeather()">Consultar</button>
 
-    <!-- Exibição de erros -->
+    <!-- Mensagem de erro -->
     <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
 
-    <!-- Exibição da previsão do tempo atualizada -->
+    <!-- Previsão do Tempo Completa-->
     <div *ngIf="weatherData" class="weather-info">
         <h2>Previsão para {{ weatherData.name }}</h2>
         <p class="temp">Temperatura: {{ weatherData.main.temp }}°C</p>

@@ -16,6 +16,6 @@ export class App {
 
 bootstrapApplication(App, {
     providers: [
-        provideHttpClient(withInterceptorsFromDi()), // Nova abordagem recomendada
+        provideHttpClient(withInterceptorsFromDi()),
     ],
 });
