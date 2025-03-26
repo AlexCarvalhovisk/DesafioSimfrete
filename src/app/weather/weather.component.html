@@ -1,17 +1,17 @@
 <div class="container">
-  <h1>Consulta de Previsão do Tempo</h1>
-  <input [(ngModel)]="city" placeholder="Digite o nome da cidade" />
-  <button (click)="getWeather()">Consultar</button>
+    <h1>Consulta de Previsão do Tempo</h1>
+    <input [(ngModel)]="city" placeholder="Digite o nome da cidade"/>
+    <button (click)="getWeather()">Consultar</button>
 
-  <!-- Exibição de erros -->
-  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+    <!-- Exibição de erros -->
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
 
-  <!-- Exibição da previsão -->
-  <div *ngIf="weatherData" class="weather-info">
-    <h2>Previsão para {{ weatherData.name }}</h2>
-    <p class="temp">Temperatura: {{ weatherData.main.temp }}°C</p>
-    <p>Condição: {{ weatherData.weather[0].description }}</p>
-    <p>Umidade: {{ weatherData.main.humidity }}%</p>
-    <p>Vento: {{ weatherData.wind.speed }} Km/h</p>
-  </div>
+    <!-- Exibição da previsão do tempo atualizada -->
+    <div *ngIf="weatherData" class="weather-info">
+        <h2>Previsão para {{ weatherData.name }}</h2>
+        <p class="temp">Temperatura: {{ weatherData.main.temp }}°C</p>
+        <p>Condição: {{ weatherData.weather[0].description }}</p>
+        <p>Umidade: {{ weatherData.main.humidity }}%</p>
+        <p>Vento: {{ weatherData.wind.speed }} Km/h</p>
+    </div>
 </div>

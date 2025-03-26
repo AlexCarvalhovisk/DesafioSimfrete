@@ -3,7 +3,9 @@
 ### Tecnologias utilizadas
 
 #### Angular 19
+
 #### Node 22
+
 #### TypeScript
 
 ## Acessando o projeto
