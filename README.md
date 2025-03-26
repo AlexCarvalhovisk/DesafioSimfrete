@@ -16,7 +16,7 @@ http://localhost:4200/
 
 ## Executando uma consulta
 
-Digite no campo cidade o nome de uma cidade válido:
+Digite no campo cidade o nome de uma cidade válida.
 
 ![img_1.png](img_1.png)
 
@@ -28,7 +28,7 @@ Digite no campo cidade o nome de uma cidade válido:
 
 ## Resultado com Erro
 
-Resultado cidade não encontrada
+Resultado da cidade não encontrada
 
 ![img.png](img.png)
 
