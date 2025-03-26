@@ -1,0 +1,92 @@
+/* Container principal */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Cabeçalho */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Input e botão */
+input,
+button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+/* Estilo do campo de entrada */
+input {
+  margin-top: 10px;
+  border-color: #ccc;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Estilo do botão */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo da mensagem de erro */
+.error {
+  color: #ff5c5c;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Estilo para a previsão do tempo */
+.weather-info {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+.weather-info h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.weather-info .temp {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
