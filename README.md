@@ -1,10 +1,10 @@
 # Projeto Desafio Simfrete Previsão do Tempo
 
-Tecnologias utilizadas
+### Tecnologias utilizadas
 
-Angular 19
-Node 22
-TypeScript
+#### Angular 19
+#### Node 22
+#### TypeScript
 
 ## Acessando o projeto
 
