@@ -1,6 +1,6 @@
 # Projeto Desafio Simfrete Previsão do Tempo
 
-### Tecnologias utilizadas
+### Tecnologias utilizadas:
 
 #### Angular 19
 
